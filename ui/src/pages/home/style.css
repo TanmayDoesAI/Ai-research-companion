@@ -1,10 +1,10 @@
-.home-container{
+.home-container {
   display: flex;
 }
-.left{
+.left {
   flex: 5;
 }
-.right{
+.right {
   flex: 4;
 }
 /* Tagline and Get Started Button */
@@ -45,6 +45,17 @@ h3 {
 /* ---------------- */
 /* right */
 
-.right img{
+.right img {
   width: 100%;
+  animation: animateImg 5s linear infinite;
+}
+
+@keyframes animateImg {
+  0%,
+  100% {
+    transform: translateY(30px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
 }

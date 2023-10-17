@@ -1,0 +1,50 @@
+.home-container{
+  display: flex;
+}
+.left{
+  flex: 5;
+}
+.right{
+  flex: 4;
+}
+/* Tagline and Get Started Button */
+.tagline-container {
+  text-align: left;
+  padding-top: 15%;
+  padding-left: 5%;
+  position: absolute;
+}
+
+h2 {
+  font-size: 30px;
+  padding-top: 50px;
+  margin-bottom: 25px;
+  color: #333;
+}
+h3 {
+  color: #333;
+  padding-bottom: 50px;
+}
+.get-started-button {
+  background-color: var(--highlight-1);
+  color: white;
+  padding: 17px 33px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.get-started-button:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid var(--highlight-1);
+}
+
+/* ---------------- */
+/* right */
+
+.right img{
+  width: 100%;
+}

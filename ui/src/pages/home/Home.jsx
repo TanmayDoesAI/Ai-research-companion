@@ -1,4 +1,5 @@
 import React from "react";
+// import { Link } from "react-router-dom"; 
 import "./style.css";
 
 const Home = () => {
@@ -8,7 +9,9 @@ const Home = () => {
         <div className="tagline-container">
           <h2>AI-SAC: AI-enhanced Scholarly Assistance Companion</h2>
           <h3>Elevating Your Research Journey with Intelligent Guidance.</h3>
-          <button className="get-started-button">Get Started</button>
+          {/* <Link to="/card"> */}
+            <button className="get-started-button">Get Started</button>
+          {/* </Link> */}
         </div>
       </div>
       <div className="right">

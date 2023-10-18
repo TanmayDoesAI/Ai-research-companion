@@ -59,3 +59,24 @@ h3 {
     transform: translateY(0px);
   }
 }
+
+
+
+/* Adjust the position of h2 and h3 for a 1280x720 screen size */
+@media (max-width: 1280px) and (max-height: 720px) {
+  .tagline-container {
+    padding: 5% 5% 10% 5%; 
+  }
+
+  h2 {
+    font-size: 25px; 
+    padding-top: 100px;
+    margin-bottom: 25px;
+    color: #333;
+}
+h3 {
+  color: #333;
+  padding-bottom: 50px;
+}
+}
+

@@ -1,5 +1,5 @@
 # Ai-research-companion
-
+## As of now we have the most progress being made in the [UI]([url](https://github.com/TanmayDoesAI/Ai-research-companion/tree/main)), while we explore the most efficient ways to implement the technqiues with LLMs.
 ## Project Overview
 
 The Ai-research-companion is a cutting-edge tool aimed at revolutionizing how individuals engage with research papers and articles. Our goal is to provide intelligent recommendations and facilitate seamless interactions with academic content. Here's an overview of our project:
